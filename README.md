@@ -34,10 +34,13 @@ bidskit --no-sessions --overwrite --complex --recon --multiecho --no-anon --bind
 A Singularity container for fMRIprep was set up using the following command (replace the path accordingly): 
 
 singularity build --sandbox /home/cheryl/Desktop/BIDS_Processing/sandbox/fmriprep-22.0.2.simg docker://nipreps/fmriprep:22.0.2 
+
 We preprocess the fMRI data using the fMRIprep toolbox within a singularity container. Here is an example of how we call fMRIprep using the standard flags for our pipeline (replace the path to the freesurfer license file with your own):
 singularity run --cleanenv sandbox/fmriprep-22.0.2.simg BIDS_Structured Output participant --participant-label 01 --fs-license-file /home/cfarr05/freesurfer_license.txt --output-spaces T1w MNI152NLin2009cAsym --verbose --notrack --ignore slicetiming --use-aroma --error-on-aroma-warnings --md-only-boilerplate --stop-on-first-crash 
+
 Note, fMRIprep is technically nondeterministic; there is slight computational variability that results in slightly different reconstructions each time fMRIprep is run. For this reason, we try to maintain a standard of sharing subject-level preprocessed data as well as raw BIDS data.
 fMRIprep includes standard fMRI preprocessing, and with the --use-aroma flag, it also runs "soft" artifact correction and generates the confounds used as nuisance regressors in first-level modelling. -- cleanenv is needed to ensure that Singularity uses the software libraries that come packaged in the container and not the ones on the host syste. See fMRIprep documentation for more information about the arguments (https://fmriprep.org/en/stable/usage.html). 
+
 ## First level analyses
 We use FSL to run the first and second level GLM. The model is fit using FSL’s [FEAT tool](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FEAT/UserGuide).
 There are event regressors per each contrast specified in the study-specific contrast file. Six contrast where utilised in our experiment which corresponded to the six different stimulation frequencies. The events.tsv files is located inside the BIDS directory specifying the onset and duration for every condition (fixation period, stimulation period, rest period) in the experiment.
