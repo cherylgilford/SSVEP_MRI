@@ -5,7 +5,7 @@ cheryl.gilford@um.edu.mt
   
 ## Overview  
   
-- \Project name:   
+- Project name:   
   
 - \[Year(s) that the project ran: 2022 - 2023 ]  
   
