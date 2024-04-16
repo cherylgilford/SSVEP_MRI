@@ -36,6 +36,7 @@ A Singularity container for fMRIprep was set up using the following command (rep
 singularity build --sandbox /home/cheryl/Desktop/BIDS_Processing/sandbox/fmriprep-22.0.2.simg docker://nipreps/fmriprep:22.0.2 
 
 We preprocess the fMRI data using the fMRIprep toolbox within a singularity container. Here is an example of how we call fMRIprep using the standard flags for our pipeline (replace the path to the freesurfer license file with your own):
+
 singularity run --cleanenv sandbox/fmriprep-22.0.2.simg BIDS_Structured Output participant --participant-label 01 --fs-license-file /home/cfarr05/freesurfer_license.txt --output-spaces T1w MNI152NLin2009cAsym --verbose --notrack --ignore slicetiming --use-aroma --error-on-aroma-warnings --md-only-boilerplate --stop-on-first-crash 
 
 Note, fMRIprep is technically nondeterministic; there is slight computational variability that results in slightly different reconstructions each time fMRIprep is run. For this reason, we try to maintain a standard of sharing subject-level preprocessed data as well as raw BIDS data.
