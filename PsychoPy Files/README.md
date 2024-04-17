@@ -43,9 +43,9 @@ where the data for which the image quality metric (IQM) value differed
 from the mean IQM of the API data by more than two standard deviations
 were eliminated.  
   
-\## Methods  
+## Methods  
   
-\### Subjects  
+### Subjects  
   
 Participants were adults: 3 females, 3 males; age range: 22 - 28  
   
@@ -64,7 +64,7 @@ vision. Vision correction was achieved either via contact lenses or
 MRI-compatible prescription glasses. All participants were screened for
 MRI contraindications.  
   
-\### Apparatus  
+### Apparatus  
   
 The stimuli were displayed on an MRI-compatible 60 Hz LCD monitor
 (NordicNeuroLab, Norway) that was viewed through a mirror mounted on the
@@ -78,12 +78,12 @@ The study was conducted at Mater Dei Hospital, Msida, Malta. Structural
 and functional MR images were acquired on a 3T Siemens Magnetom Vida
 scanner (Siemens, Germany), fitted with a 64-channel head coil.  
   
-\### Initial setup  
+### Initial setup  
   
 Participants were instructed and briefly familiarised with the stimuli
 and task, and completed safety and informed consent procedures.  
   
-\### Task details and organisation  
+### Task details and organisation  
   
 The experiment was divided into three. The Python code for each of the
 three experiments are located in the \`\`\`exp1\`\`\`,\`\`\` exp2\`\`\`
@@ -141,7 +141,7 @@ this was repeated twice for a total of two runs to collect a total of 12
 trials per stimulus, and hence two trials for each frequency were
 recorded.  
   
-\### Additional notes  
+### Additional notes  
   
 The session prior to Experiment 1 which included the recording of
 anatomical images and gradient-field maps lasted 8 minutes. This was
