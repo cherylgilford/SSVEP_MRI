@@ -1,15 +1,13 @@
-\- Contact person  
-  
-Cheryl Gilford  
-cheryl.gilford@um.edu.mt  
   
 ## Overview  
-  
+
+- Contact person: Cheryl Gilford, cheryl.gilford@um.edu.mt
+    
 - Project name:   
   
-- \Year(s) that the project ran: 2022 - 2023   
+- Year(s) that the project ran: 2022 - 2023   
   
-- \Brief overview of the project
+- Brief overview of the project
   
 functional magnetic resonance imaging (fMRI) was used to localise the
 steady-state visual evoked potential (SSVEP) in the brain which is
@@ -19,7 +17,7 @@ location of the SSVEPs across the whole scalp where analysed when
 subjects where shown different stimuli properties, including stimuli
 with a varied colour, shape and texture.  
   
-- \[Stimuli and independent variables]   
+- Stimuli and independent variables   
   
 3 different coloured stimuli, 2 different symbol stimuli and 2 different
 textured stimuli were presented to the participants at different
@@ -32,7 +30,7 @@ shown at the following stimulation frequencies: 7.5 Hz, 10 Hz, 15 Hz, 20
 Hz, 24 Hz, 30 Hz. Each stimulus flickering at a particular frequency was
 shown twice.  
   
-- \[Quality assessment of the data]  
+- Quality assessment of the data  
   
 Prior to preprocessing the data using fMRIPrep
 (https://fmriprep.org/en/stable/; Esteban et al., 2019), we generated
@@ -49,13 +47,13 @@ were eliminated.
   
 Participants were adults: 3 females, 3 males; age range: 22 - 28  
   
-- \Information about the recruitment procedure
+- Information about the recruitment procedure
   
 Participants were recruited through advertising online and using posters
 on the university campus. Any interested participants were required to
 send an email to participate in this study.  
   
-- \Subject exclusion criteria 
+- Subject exclusion criteria 
   
 Participants had to have a good command of the English language since
 the consent forms and information letters about the project were in
@@ -86,9 +84,9 @@ and task, and completed safety and informed consent procedures.
 ### Task details and organisation  
   
 The experiment was divided into three. The Python code for each of the
-three experiments are located in the \`\`\`exp1\`\`\`,\`\`\` exp2\`\`\`
-and ```exp3``` folders respectively. Additionally \`\`\`exp2\`\`\`
-and \`\`\`exp3\`\`\` folders contain a \`\`\`Stimuli_Images\`\`\` folder
+three experiments are located in the ```exp1```,``` exp2```
+and ```exp3``` folders respectively. Additionally ```exp2```
+and ```exp3``` folders contain a ```Stimuli_Images``` folder
 which contains the images of the stimuli used in that particular
 experiment.  
   
@@ -96,7 +94,7 @@ Prior to starting Experiment 1, an extra session was performed during
 which anatomical images of the brain and gradient-echo field maps were
 recorded.  
   
-Experiment 1 (\`\`\`exp1\`\`\` folder): This session opens up with a
+Experiment 1 (```exp1``` folder): This session opens up with a
 welcome screen lasting 30 seconds, describing any important instructions
 to the participant inside the scanner. Following this, a ‘pre-scanning
 session’ was performed where five extra volumes were recorded to allow
@@ -122,7 +120,7 @@ order to have a total of two runs per coloured stimulus to obtain a
 total of 12 trials for each stimulus colour (two trials for each
 frequency).  
   
-Experiment 2 (\`\`\`exp2\`\`\` folder): Following the welcome screen and
+Experiment 2 (```exp2``` folder): Following the welcome screen and
 pre-scanning session, the same fixation period, stimulation period and
 rest period trial sequence that was used in Experiment 1 was used in the
 third session where the ‘Power On/Off’ and text stimuli were presented
@@ -131,7 +129,7 @@ trial per frequency) and this was repeated twice for a total of two runs
 to collect a total of 12 trials per stimulus, and hence two trials for
 each frequency were recorded.  
   
-Experiment 3 (\`\`\`exp3\`\`\` folder): Following the welcome screen and
+Experiment 3 (```exp3``` folder): Following the welcome screen and
 pre-scanning session, the same trail sequence that consisted of a
 fixation, stimulation, and rest period that was used in Experiments 1
 and 2 was also utilised in this experimental session where the
