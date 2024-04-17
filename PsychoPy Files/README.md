@@ -7,9 +7,9 @@ cheryl.gilford@um.edu.mt
   
 - Project name:   
   
-- \[Year(s) that the project ran: 2022 - 2023 ]  
+- \Year(s) that the project ran: 2022 - 2023   
   
-- \[Brief overview of the project] 
+- \Brief overview of the project
   
 functional magnetic resonance imaging (fMRI) was used to localise the
 steady-state visual evoked potential (SSVEP) in the brain which is
@@ -49,13 +49,13 @@ were eliminated.
   
 Participants were adults: 3 females, 3 males; age range: 22 - 28  
   
-- \[Information about the recruitment procedure] 
+- \Information about the recruitment procedure
   
 Participants were recruited through advertising online and using posters
 on the university campus. Any interested participants were required to
 send an email to participate in this study.  
   
-- \[Subject exclusion criteria] 
+- \Subject exclusion criteria 
   
 Participants had to have a good command of the English language since
 the consent forms and information letters about the project were in
@@ -87,7 +87,7 @@ and task, and completed safety and informed consent procedures.
   
 The experiment was divided into three. The Python code for each of the
 three experiments are located in the \`\`\`exp1\`\`\`,\`\`\` exp2\`\`\`
-and \`\`\`exp3\`\`\` folders respectively. Additionally \`\`\`exp2\`\`\`
+and ```exp3``` folders respectively. Additionally \`\`\`exp2\`\`\`
 and \`\`\`exp3\`\`\` folders contain a \`\`\`Stimuli_Images\`\`\` folder
 which contains the images of the stimuli used in that particular
 experiment.  
